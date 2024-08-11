@@ -27,7 +27,7 @@ class Credit_card
   	Credit_card_number[(digit_number-1)-in]=number%10;
   	number=number/10;
   }
-	if(digit_number<16 && digit_number>16)
+	if(digit_number<13 || digit_number>16)
 	{
 		cout<<"Not a valid number.\n"<<"Number should be in the range of 13-16 digits.";
 	}
